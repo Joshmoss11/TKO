@@ -13,10 +13,10 @@ set peaks_dir = ${parent}/peaks_macs
 set bw_dir = ${parent}/BigWigs
 set out_dir = ${parent}/heatmapper_results
 mkdir $out_dir
-srun computeMatrix reference-point --regionsFileName ${peaks_dir}/${1}_peaks.broadPeak --scoreFileName $bw_dir/${1}.bw --beforeRegionStartLength 2500 --afterRegionStartLength 2500 --binSize 100 --outFileName $out_dir/${1}.matrix --outFileNameMatrix $out_dir/${1}_matrix.tab --sortRegions descend --outFileSortedRegions $out_dir/${1}_sorted_regions.bed --referencePoint center --missingDataAsZero
+srun computeMatrix reference-point --regionsFileName ${peaks_dir}/${1}_peaks.broadPeak --scoreFileName $bw_dir/${1}_25.bw --beforeRegionStartLength 2500 --afterRegionStartLength 2500 --binSize 100 --outFileName $out_dir/${1}.matrix --outFileNameMatrix $out_dir/${1}_matrix.tab --sortRegions descend --outFileSortedRegions $out_dir/${1}_sorted_regions.bed --referencePoint center --missingDataAsZero
 
 srun plotHeatmap --matrixFile $out_dir/${1}.matrix --outFileName $out_dir/${1}.png --sortRegions no --refPointLabel Peak --regionsLabel Peaks
 
-srun computeMatrix reference-point --regionsFileName $out_dir/${1}_sorted_regions.bed --scoreFileName $bw_dir/${2}.bw --beforeRegionStartLength 2500 --afterRegionStartLength 2500 --binSize 100 --outFileName $out_dir/${2}.matrix --outFileNameMatrix $out_dir/${2}_matrix.tab --sortRegions no --referencePoint center --missingDataAsZero
+srun computeMatrix reference-point --regionsFileName $out_dir/${1}_sorted_regions.bed --scoreFileName $bw_dir/${2}_25.bw --beforeRegionStartLength 2500 --afterRegionStartLength 2500 --binSize 100 --outFileName $out_dir/${2}.matrix --outFileNameMatrix $out_dir/${2}_matrix.tab --sortRegions no --referencePoint center --missingDataAsZero
 
 srun plotHeatmap --matrixFile $out_dir/${2}.matrix --outFileName $out_dir/${2}.png --sortRegions no --refPointLabel Peak --regionsLabel Peaks
