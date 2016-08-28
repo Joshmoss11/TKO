@@ -1,0 +1,3 @@
+mkdir: cannot create directory 'out_dir': File exists
+/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/bamCoverage_results/tko_h3k4me3.bg is not case-sensitive sorted at line 5297065.  Please use "sort -k1,1 -k2,2n" with LC_COLLATE=C,  or bedSort and try again.
+srun: error: hm-08: task 0: Exited with exit code 255

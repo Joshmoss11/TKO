@@ -1,0 +1,14 @@
+mkdir: cannot create directory '/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/heatmapper_results': File exists
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 49531
+	no groups found
+Warning:region extends beyond chromosome end for tko_rnap_peak_24307 chr19:61341230:61342430.
+Warning:region extends beyond chromosome end for tko_rnap_peak_40471 chr6:149514013:149514845.
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 49531
+	groups: 1 [genes]
+
+Warning:region extends beyond chromosome end for tko_rnap_peak_24307 chr19:61341230:61342430.
+Warning:region extends beyond chromosome end for tko_rnap_peak_40471 chr6:149514013:149514845.

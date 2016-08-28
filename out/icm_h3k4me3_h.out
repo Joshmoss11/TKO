@@ -1,0 +1,20 @@
+mkdir: cannot create directory '/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/heatmapper_results': File exists
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 12390
+	no groups found
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_5778 chr18:90771514:90772031.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_1438 chr10:129992259:129992919.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_2319 chr11:121843546:121843856.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_7131 chr2:181747415:181748035.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_9553 chr5:152536980:152537228.
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 12390
+	groups: 1 [genes]
+
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_7131 chr2:181747415:181748035.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_2319 chr11:121843546:121843856.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_5778 chr18:90771514:90772031.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_9553 chr5:152536980:152537228.
+Warning:region extends beyond chromosome end for icm_h3k4me3_peak_1438 chr10:129992259:129992919.

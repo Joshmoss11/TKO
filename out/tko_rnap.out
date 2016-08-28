@@ -1,0 +1,2 @@
+/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/bamCoverage_results/tko_rnap.bg is not case-sensitive sorted at line 8478328.  Please use "sort -k1,1 -k2,2n" with LC_COLLATE=C,  or bedSort and try again.
+srun: error: hm-38: task 0: Exited with exit code 255
