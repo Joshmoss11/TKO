@@ -1,0 +1,42 @@
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 59047
+	groups: 1 [genes]
+
+[urlOpen] Couldn't open /mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/alon_bg/GSE30202_BisSeq_ES_CpGmeth_nocut.bw for reading
+[urlOpen] Couldn't open /mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/alon_bg/GSE30202_BisSeq_ES_CpGmeth_nocut.bw for reading
+Traceback (most recent call last):
+  File "/usr/local/icore-hm/bin/computeMatrix", line 7, in <module>
+    main()
+  File "/usr/local/icore-hm/python2.7/local/lib/python2.7/site-packages/deeptools/computeMatrix.py", line 389, in main
+[urlOpen] Couldn't open /mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/alon_bg/GSE30202_BisSeq_ES_CpGmeth_nocut.bw for reading
+    hm.computeMatrix(scores_file_list, bed_file, parameters, blackListFileName=args.blackListFileName, verbose=args.verbose)
+  File "/usr/local/icore-hm/python2.7/local/lib/python2.7/site-packages/deeptools/heatmapper.py", line 83, in computeMatrix
+    mp_args).get(9999999)
+  File "/usr/lib64/python2.7/multiprocessing/pool.py", line 567, in get
+    raise self._value
+RuntimeError: Received an error during file opening!
+[urlOpen] Couldn't open /mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/alon_bg/GSE30202_BisSeq_ES_CpGmeth_nocut.bw for reading
+srun: error: hm-28: task 0: Exited with exit code 1
+usage: plotHeatmap [--matrixFile MATRIXFILE] --outFileName OUTFILENAME
+                   [--outFileSortedRegions FILE] [--outFileNameMatrix FILE]
+                   [--kmeans KMEANS] [--hclust HCLUST] [--help] [--version]
+                   [--sortRegions {descend,ascend,no}]
+                   [--sortUsing {mean,median,max,min,sum,region_length}]
+                   [--averageTypeSummaryPlot {mean,median,min,max,std,sum}]
+                   [--missingDataColor MISSINGDATACOLOR] [--colorMap COLORMAP]
+                   [--colorList COLORLIST [COLORLIST ...]]
+                   [--colorNumber COLORNUMBER] [--zMin ZMIN] [--zMax ZMAX]
+                   [--heatmapHeight HEATMAPHEIGHT]
+                   [--heatmapWidth HEATMAPWIDTH]
+                   [--whatToShow {plot, heatmap and colorbar,plot and heatmap,heatmap only,heatmap and colorbar}]
+                   [--xAxisLabel XAXISLABEL] [--startLabel STARTLABEL]
+                   [--endLabel ENDLABEL] [--refPointLabel REFPOINTLABEL]
+                   [--regisrun: error: hm-28: task 0: Exited with exit code 2
+onsLabel REGIONSLABEL [REGIONSLABEL ...]]
+                   [--samplesLabel SAMPLESLABEL [SAMPLESLABEL ...]]
+                   [--plotTitle PLOTTITLE] [--yAxisLabel YAXISLABEL]
+                   [--yMin YMIN] [--yMax YMAX]
+                   [--legendLocation {best,upper-right,upper-left,upper-center,lower-left,lower-right,lower-center,center,center-left,center-right,none}]
+                   [--perGroup] [--plotFileFormat] [--verbose]
+plotHeatmap: error: argument --matrixFile/-m: can't open '/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/heatmapper_results/GSE30202_BisSeq_ES_CpGmeth_nocut.matrix': [Errno 2] No such file or directory: '/mnt/lustre/hms-01/fs01/joshua.moss/cedar/embryo/tko_analysis/heatmapper_results/GSE30202_BisSeq_ES_CpGmeth_nocut.matrix'

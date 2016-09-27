@@ -1,0 +1,8 @@
+Number of fields in BED file is not standard. Assuming bed6
+Found:
+	intervals: 59047
+	groups: 1 [genes]
+
+Warning:region extends beyond chromosome end for tko_h3k4me3_peak_48844 chr6:149513845:149515528.
+Warning:region extends beyond chromosome end for tko_h3k4me3_peak_7107 chr10:129989912:129993001.
+Warning:region extends beyond chromosome end for tko_h3k4me3_peak_29699 chr19:61341579:61342417.
